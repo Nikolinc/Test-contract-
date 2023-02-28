@@ -70,6 +70,41 @@
       "artifacts": [
         "Demo"
       ]
+    },
+    "E:\\Program\\Новая папка\\contracts\\Tree.sol": {
+      "lastModificationDate": 1677599393827,
+      "contentHash": "c1970f150a767988bb72e9495381667d",
+      "sourceName": "contracts/Tree.sol",
+      "solcConfig": {
+        "version": "0.8.17",
+        "settings": {
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Tree"
+      ]
     }
   }
 }
